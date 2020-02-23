@@ -1,291 +1,282 @@
 <!DOCTYPE html>
 <html lang="fi">
+
 <head>
     <meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Korkealaatuisia makuelämyksiä vuosikymmenestä toiseen">
     <title>Aben Kebab - Ruokalista</title>
-	<link href="css/tyyli.css" rel="stylesheet"> 
+    <link href="css/tyyli.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-       <link href="theme.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="theme.css" rel="stylesheet">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
     </script>
 </head>
-<body class= "body">
-<div class="container2">
-<header>
-<img src="images/logo.png" alt="logo" />
-</header>
-<select onChange="window.location.href=this.value" class="mobiili">
+
+<body class="body">
+    <div class="container2">
+        <header>
+            <img src="images/logo.png" alt="logo" />
+        </header>
+        <select onChange="window.location.href=this.value" class="mobiili">
 <option value="">Valikko</option>
 <option value="etusivu.html">Etusivu</option>
 <option value="ruokalista.html">Ruokalista</option>
 <option value="yhteystiedot.html">Yhteystiedot</option>
 <option value="info.html">Lisätietoa meistä</option>
 </select>
- <div class="keskitys tabletti" >
-  <div class="btn-group btn-group-justified" >
-    <a href="http://myy.haaga-helia.fi/~a1503030/digipal/abenkebab/etusivu.html" class="btn btn-success">Etusivu</a>
-    <a href="http://myy.haaga-helia.fi/~a1503030/digipal/abenkebab/ruokalista.html" class="btn btn-success disabled">Ruokalista</a>
-    <a href="http://myy.haaga-helia.fi/~a1503030/digipal/abenkebab/yhteystiedot.html" class="btn btn-success">Yhteystiedot</a>
-    <a href="http://myy.haaga-helia.fi/~a1503030/digipal/abenkebab/info.html" class="btn btn-success">Lisätietoa meistä</a>
-  </div>
-</div>
-    <div class="kielet">
-     <a href="ruokalista.html">
-    <img src="images/suomi.png" alt="suomi"/>
-    </a>
-    <a href="menu.html">
-    <img src="images/britti.png" alt="english"/>
-    </a>
+        <div class="keskitys tabletti">
+            <div class="btn-group btn-group-justified">
+                <a href="etusivu.html" class="btn btn-success">Etusivu</a>
+                <a href="ruokalista.html" class="btn btn-success disabled">Ruokalista</a>
+                <a href="yhteystiedot.html" class="btn btn-success">Yhteystiedot</a>
+                <a href="info.html" class="btn btn-success">Lisätietoa meistä</a>
+            </div>
+        </div>
+        <div class="kielet">
+            <a href="ruokalista.html">
+                <img src="images/suomi.png" alt="suomi" />
+            </a>
+            <a href="menu.html">
+                <img src="images/britti.png" alt="english" />
+            </a>
+        </div>
+        <h2>Ruokalista</h2>
+        <h3>Pizzat</h3>
+        <div class="table-responsive">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Nimi</th>
+                        <th>Sisältö</th>
+                        <th>Sisältää lihaa</th>
+                        <th>Sisältää gluteenia</th>
+                        <th>Hinta</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Americana</td>
+                        <td>Kinkku, Ananas</td>
+                        <td><img src="images/yes.png" alt="yes"></td>
+                        <td><img src="images/no.png" alt="no"></td>
+                        <td>7,50€ Normaali<br> 10.50€ Perhe</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>BBQ chicken</td>
+                        <td>bbq-kastike, kana, mozzarellajuusto, pekoni</td>
+                        <td><img src="images/yes.png" alt="yes"></td>
+                        <td><img src="images/no.png" alt="no"></td>
+                        <td>7,50€ Normaali<br> 10.50€ Perhe</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Roma</td>
+                        <td>Herkkusieni, katkarapu, kinkku</td>
+                        <td><img src="images/yes.png" alt="yes"></td>
+                        <td><img src="images/no.png" alt="no"></td>
+                        <td>8.00€ Normaali<br> 10.50€ Perhe</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Salami</td>
+                        <td>salami</td>
+                        <td><img src="images/yes.png" alt="yes"></td>
+                        <td><img src="images/no.png" alt="no"></td>
+                        <td>7,00€ Normaali<br> 10.00€ Perhe</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Vege</td>
+                        <td>Herkkusieni, oliivi, paprika, sipuli, tomaatti</td>
+                        <td><img src="images/no.png" alt="no"></td>
+                        <td><img src="images/no.png" alt="no"></td>
+                        <td>7,50€ Normaali<br> 10.50€ Perhe</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Omavalinta</td>
+                        <td>Neljä vapaavalintaista täytettä.</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>8,50€ Normaali<br> 11.50€ Perhe</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3>Kebab</h3>
+            <h4>Kaikkiin annoksiin on valittavissa tulinen ja mieto kastike, myös gluteenittomana erikseen pyydettäessä.</h4>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Nimi</th>
+                        <th>Sisältää lihaa</th>
+                        <th>Sisältää gluteenia</th>
+                        <th>Hinta</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Kebab ranskalaisilla</td>
+                        <td><img src="images/yes.png" alt="yes"></td>
+                        <td><img src="images/yes.png" alt="yes"></td>
+                        <td>7,50€</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Kebab riisillä</td>
+                        <td><img src="images/yes.png" alt="yes"></td>
+                        <td><img src="images/yes.png" alt="yes"></td>
+                        <td>7,50€</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Iskender kebab</td>
+                        <td><img src="images/yes.png" alt="yes"></td>
+                        <td><img src="images/yes.png" alt="yes"></td>
+                        <td>8.00€</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Kanakebab</td>
+                        <td><img src="images/yes.png" alt="yes"></td>
+                        <td><img src="images/no.png" alt="no"></td>
+                        <td>7,00€</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Vegekebab</td>
+                        <td><img src="images/no.png" alt="no"></td>
+                        <td><img src="images/no.png" alt="no"></td>
+                        <td>7,50€</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Falafel riisillä</td>
+                        <td><img src="images/no.png" alt="no"></td>
+                        <td><img src="images/yes.png" alt="yes"></td>
+                        <td>7,00€</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Falafel salaatilla</td>
+                        <td><img src="images/no.png" alt="no"></td>
+                        <td><img src="images/no.png" alt="no"></td>
+                        <td>7,50€</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3>Hampurilaiset</h3>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Nimi</th>
+                        <th>Sisältö</th>
+                        <th>Sisältää lihaa</th>
+                        <th>Sisältää gluteenia</th>
+                        <th>Hinta</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Juustohampurilainen</td>
+                        <td>Juusto</td>
+                        <td><img src="images/yes.png" alt="yes"></td>
+                        <td><img src="images/no.png" alt="no"></td>
+                        <td>1,00€ Hampurilainen<br> 5,00€ Ateria</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Amerikan lämpö</td>
+                        <td>Pekoni, juusto, tuplapihvi, majoneesi, bbq-kastike</td>
+                        <td><img src="images/yes.png" alt="yes"></td>
+                        <td><img src="images/yes.png" alt="yes"></td>
+                        <td>7,50€ Hampurilainen<br> 11.50€ Ateria</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>White house</td>
+                        <td>Kanapihvi, suolakurkku, salaatti</td>
+                        <td><img src="images/yes.png" alt="yes"></td>
+                        <td><img src="images/yes.png" alt="yes"></td>
+                        <td>4.00€ Hampurilainen<br> 8.00€ Ateria</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Crossover</td>
+                        <td>Kebabliha, kanapihvi, pihvi, salaatti, tomaatti</td>
+                        <td><img src="images/yes.png" alt="yes"></td>
+                        <td><img src="images/yes.png" alt="yes"></td>
+                        <td>6,00€ Hampurilainen<br> 11,00 Ateria</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Vege</td>
+                        <td>Vegepihvi, tomaatti, sipuli, oliivi</td>
+                        <td><img src="images/no.png" alt="no"></td>
+                        <td><img src="images/yes.png" alt="yes"></td>
+                        <td>4,50€ Hampurilainen<br> 8.50€ Ateria</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Kuiva</td>
+                        <td>Pihvi, ruissämpylä</td>
+                        <td><img src="images/yes.png" alt="yes"></td>
+                        <td><img src="images/no.png" alt="no"></td>
+                        <td>1,50€ Hampurilainen<br> 3.50€ Ateria</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3>Pastat</h3>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Nimi</th>
+                        <th>Sisältö</th>
+                        <th>Sisältää lihaa</th>
+                        <th>Sisältää gluteenia</th>
+                        <th>Hinta</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Carbonara</td>
+                        <td>Juusto, pekoni, kananmuna</td>
+                        <td><img src="images/yes.png" alt="yes"></td>
+                        <td><img src="images/yes.png" alt="yes"></td>
+                        <td>6,50€</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Suomipasta</td>
+                        <td>Raketti-spagetti, Dolmio-kastike, jauheliha</td>
+                        <td><img src="images/yes.png" alt="yes"></td>
+                        <td><img src="images/yes.png" alt="yes"></td>
+                        <td>5,50€</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Kela-pasta</td>
+                        <td>Makarooni, ketsuppi</td>
+                        <td><img src="images/yes.png" alt="yes"></td>
+                        <td><img src="images/no.png" alt="no"></td>
+                        <td>2.00€</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
-<h2>Ruokalista</h2>
-    <h3>Pizzat</h3>
-    <div class="table-responsive">          
-  <table class="table table-hover">
-    <thead>
-      <tr>
-        <th>#</th>
-        <th>Nimi</th>
-        <th>Sisältö</th>
-        <th>Sisältää lihaa</th>
-        <th>Sisältää gluteenia</th>
-        <th>Hinta</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>1</td>
-        <td>Americana</td>
-        <td>Kinkku, Ananas</td>
-        <td><img src="images/yes.png" alt="yes"></td>
-        <td><img src="images/no.png" alt="no"></td>
-        <td>7,50€ Normaali<br>
-          10.50€ Perhe</td>
-      </tr>
-        <tr>
-        <td>2</td>
-        <td>BBQ chicken</td>
-        <td>bbq-kastike, kana, mozzarellajuusto, pekoni</td>
-        <td><img src="images/yes.png" alt="yes"></td>
-        <td><img src="images/no.png" alt="no"></td>
-        <td>7,50€ Normaali<br>
-          10.50€ Perhe</td>
-      </tr>
-        <tr>
-        <td>3</td>
-        <td>Roma</td>
-        <td>Herkkusieni, katkarapu, kinkku</td>
-        <td><img src="images/yes.png" alt="yes"></td>
-        <td><img src="images/no.png" alt="no"></td>
-        <td>8.00€ Normaali<br>
-          10.50€ Perhe</td>
-      </tr>
-        <tr>
-        <td>4</td>
-        <td>Salami</td>
-        <td>salami</td>
-        <td><img src="images/yes.png" alt="yes"></td>
-        <td><img src="images/no.png" alt="no"></td>
-        <td>7,00€ Normaali<br>
-          10.00€ Perhe</td>
-      </tr>
-        <tr>
-        <td>5</td>
-        <td>Vege</td>
-        <td>Herkkusieni, oliivi, paprika, sipuli, tomaatti</td>
-        <td><img src="images/no.png" alt="no"></td>
-        <td><img src="images/no.png" alt="no"></td>
-        <td>7,50€ Normaali<br>
-          10.50€ Perhe</td>
-      </tr>
-        <tr>
-        <td>6</td>
-        <td>Omavalinta</td>
-        <td>Neljä vapaavalintaista täytettä.</td>
-        <td>-</td>
-        <td>-</td>
-        <td>8,50€ Normaali<br>
-          11.50€ Perhe</td>
-      </tr>
-    </tbody>
-  </table>
-        <h3>Kebab</h3>
-        <h4>Kaikkiin annoksiin on valittavissa tulinen ja mieto kastike, myös gluteenittomana erikseen pyydettäessä.</h4>
-        <table class="table table-hover">
-    <thead>
-      <tr>
-        <th>#</th>
-        <th>Nimi</th>
-        <th>Sisältää lihaa</th>
-        <th>Sisältää gluteenia</th>
-        <th>Hinta</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>1</td>
-        <td>Kebab ranskalaisilla</td>
-        <td><img src="images/yes.png" alt="yes"></td>
-        <td><img src="images/yes.png" alt="yes"></td>
-        <td>7,50€</td>
-      </tr>
-        <tr>
-        <td>2</td>
-        <td>Kebab riisillä</td>
-        <td><img src="images/yes.png" alt="yes"></td>
-        <td><img src="images/yes.png" alt="yes"></td>
-        <td>7,50€</td>
-      </tr>
-        <tr>
-        <td>3</td>
-        <td>Iskender kebab</td>
-        <td><img src="images/yes.png" alt="yes"></td>
-        <td><img src="images/yes.png" alt="yes"></td>
-        <td>8.00€</td>
-      </tr>
-        <tr>
-        <td>4</td>
-        <td>Kanakebab</td>
-        <td><img src="images/yes.png" alt="yes"></td>
-        <td><img src="images/no.png" alt="no"></td>
-        <td>7,00€</td>
-      </tr>
-        <tr>
-        <td>5</td>
-        <td>Vegekebab</td>
-        <td><img src="images/no.png" alt="no"></td>
-        <td><img src="images/no.png" alt="no"></td>
-        <td>7,50€</td>
-      </tr>
-        <tr>
-        <td>4</td>
-        <td>Falafel riisillä</td>
-        <td><img src="images/no.png" alt="no"></td>
-        <td><img src="images/yes.png" alt="yes"></td>
-        <td>7,00€</td>
-      </tr>
-        <tr>
-        <td>5</td>
-        <td>Falafel salaatilla</td>
-        <td><img src="images/no.png" alt="no"></td>
-        <td><img src="images/no.png" alt="no"></td>
-        <td>7,50€</td>
-      </tr>
-    </tbody>
-  </table>
-        <h3>Hampurilaiset</h3>
-         <table class="table table-hover">
-    <thead>
-      <tr>
-        <th>#</th>
-        <th>Nimi</th>
-        <th>Sisältö</th>
-        <th>Sisältää lihaa</th>
-        <th>Sisältää gluteenia</th>
-        <th>Hinta</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>1</td>
-        <td>Juustohampurilainen</td>
-        <td>Juusto</td>
-        <td><img src="images/yes.png" alt="yes"></td>
-        <td><img src="images/no.png" alt="no"></td>
-        <td>1,00€ Hampurilainen<br>
-          5,00€ Ateria</td>
-      </tr>
-        <tr>
-        <td>2</td>
-        <td>Amerikan lämpö</td>
-        <td>Pekoni, juusto, tuplapihvi, majoneesi, bbq-kastike</td>
-        <td><img src="images/yes.png" alt="yes"></td>
-        <td><img src="images/yes.png" alt="yes"></td>
-        <td>7,50€ Hampurilainen<br>
-          11.50€ Ateria</td>
-      </tr>
-        <tr>
-        <td>3</td>
-        <td>White house</td>
-        <td>Kanapihvi, suolakurkku, salaatti</td>
-        <td><img src="images/yes.png" alt="yes"></td>
-        <td><img src="images/yes.png" alt="yes"></td>
-        <td>4.00€ Hampurilainen<br>
-          8.00€ Ateria</td>
-      </tr>
-        <tr>
-        <td>4</td>
-        <td>Crossover</td>
-        <td>Kebabliha, kanapihvi, pihvi, salaatti, tomaatti</td>
-        <td><img src="images/yes.png" alt="yes"></td>
-        <td><img src="images/yes.png" alt="yes"></td>
-        <td>6,00€ Hampurilainen<br>
-          11,00 Ateria</td>
-      </tr>
-        <tr>
-        <td>5</td>
-        <td>Vege</td>
-        <td>Vegepihvi, tomaatti, sipuli, oliivi</td>
-        <td><img src="images/no.png" alt="no"></td>
-        <td><img src="images/yes.png" alt="yes"></td>
-        <td>4,50€ Hampurilainen<br>
-          8.50€ Ateria</td>
-      </tr>
-        <tr>
-        <td>6</td>
-        <td>Kuiva</td>
-        <td>Pihvi, ruissämpylä</td>
-        <td><img src="images/yes.png" alt="yes"></td>
-        <td><img src="images/no.png" alt="no"></td>
-        <td>1,50€ Hampurilainen<br>
-          3.50€ Ateria</td>
-      </tr>
-    </tbody>
-  </table>
-        <h3>Pastat</h3>
-         <table class="table table-hover">
-    <thead>
-      <tr>
-        <th>#</th>
-        <th>Nimi</th>
-        <th>Sisältö</th>
-        <th>Sisältää lihaa</th>
-        <th>Sisältää gluteenia</th>
-        <th>Hinta</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>1</td>
-        <td>Carbonara</td>
-        <td>Juusto, pekoni, kananmuna</td>
-        <td><img src="images/yes.png" alt="yes"></td>
-        <td><img src="images/yes.png" alt="yes"></td>
-        <td>6,50€</td>
-      </tr>
-        <tr>
-        <td>2</td>
-        <td>Suomipasta</td>
-        <td>Raketti-spagetti, Dolmio-kastike, jauheliha</td>
-        <td><img src="images/yes.png" alt="yes"></td>
-        <td><img src="images/yes.png" alt="yes"></td>
-        <td>5,50€</td>
-      </tr>
-        <tr>
-        <td>3</td>
-        <td>Kela-pasta</td>
-        <td>Makarooni, ketsuppi</td>
-        <td><img src="images/yes.png" alt="yes"></td>
-        <td><img src="images/no.png" alt="no"></td>
-        <td>2.00€</td>
-      </tr>
-    </tbody>
-  </table>
-  </div>
-</div>
     <div class="alajutut">© Mikko Nirkko 2017</div>
 </body>
+
 </html>
