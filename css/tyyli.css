@@ -1,0 +1,117 @@
+.keskitys {
+    text-align: center;
+    margin: auto;
+}
+
+.body {
+    background-color: transparent;
+}
+
+h2 {
+    font-family: 'Arial';
+    text-shadow: 1px 1px 1px black;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    border: 3px green solid;
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 8px 8px 10px grey;
+}
+
+.container2 {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    border: 3px green solid;
+    padding: 10px;
+    background-image: url(ruotaus.jpg);
+    border-radius: 20px;
+    box-shadow: 8px 8px 10px grey;
+}
+
+header img {
+    width: 100%;
+}
+
+nav {
+    background-color: cyan;
+    padding: 10px 0px;
+    margin-top: -3px;
+}
+
+nav a {
+    color: white;
+    margin: 0px 5px;
+    text-decoration: none;
+    font-size: 60px;
+    display: inline-block;
+    width: 6em;
+}
+
+@media (min-width:420px) {
+    h1 {
+        font-size: 65px;
+    }
+    h2 {
+        font-size: 26px;
+    }
+}
+
+@media (min-width:900px) {
+    h1 {
+        font-size: 58px;
+    }
+    h2 {
+        font-size: 34px;
+    }
+    p {
+        font-size: 150%;
+    }
+}
+
+.tabletti {
+    display: none;
+}
+
+@media (min-width:530px) {
+    .mobiili {
+        display: none;
+    }
+    .tabletti {
+        display: block;
+    }
+}
+
+html {
+    background-image: url(taustaa.jpg);
+}
+
+.alajutut {
+    padding: 10px;
+    text-align: center;
+}
+
+.kuvitus {
+    float: right;
+}
+
+.leipa {
+    text-align: left;
+}
+
+.kartta {
+    float: left;
+}
+
+.kielet {
+    float: right;
+}
